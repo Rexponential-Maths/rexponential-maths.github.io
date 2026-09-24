@@ -4,10 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Notes | Rexponential</title>
-<meta name="description" content="Rexponential: maths notes, worksheets and practice questions for GCSE and A level.">
-<link rel="icon" href="logo.svg" type="image/svg+xml">
+<meta name="description" content="Rexponential: notes, worked examples and exam-style questions for A level Maths and Further Maths.">
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)']] } };</script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -15,7 +17,7 @@
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="index.html"><img src="logo.svg" alt="">Re<span>x</span>ponential</a>
+    <a class="brand" href="index.html"><img src="assets/logo.webp" alt="Rexponential" width="184" height="46"></a>
     <nav>
       <a href="index.html">Home</a>
       <a href="notes.html" aria-current="page">Notes</a>
@@ -27,20 +29,23 @@
 
 <section>
   <div class="wrap">
-    <h2>Notes</h2>
-    <p class="lead">Topic notes with worked examples. New notes are added regularly.</p>
+    <h1>Notes</h1>
+    <p class="lead">Topic notes with key formulae, worked examples and exam tips. New notes are added regularly.</p>
 
-    <h3 id="gcse">GCSE Maths</h3>
+    <h3 id="pure">A level Pure Maths</h3>
     <ul class="topic-list">
-      <li>Number: fractions, surds and indices</li>
-      <li>Algebra: quadratics and simultaneous equations</li>
-      <li>Geometry: Pythagoras and trigonometry</li>
-      <li>Statistics and probability</li>
+      <li>Proof</li>
+      <li>Algebra and functions</li>
+      <li>Coordinate geometry</li>
+      <li>Sequences and series</li>
+      <li>Trigonometry</li>
+      <li>Exponentials and logarithms</li>
+      <li>Differentiation and integration</li>
+      <li>Vectors</li>
     </ul>
 
-    <h3 id="alevel">A level Maths</h3>
+    <h3 id="applied">A level Statistics &amp; Mechanics</h3>
     <ul class="topic-list">
-      <li>Pure: proof, algebra, functions, calculus, vectors</li>
       <li>Statistics: sampling, distributions, hypothesis testing</li>
       <li>Mechanics: kinematics, forces, moments</li>
     </ul>
@@ -53,8 +58,8 @@
       <li>Further calculus and differential equations</li>
     </ul>
 
-    <div class="example">
-      <p><strong>Example: the quadratic formula</strong></p>
+    <div class="box formula">
+      <p class="box-title">Key formula: the quadratic formula</p>
       <p>The solutions of \( ax^2 + bx + c = 0 \) are</p>
       <p>\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]</p>
     </div>
@@ -62,7 +67,10 @@
 </section>
 
 <footer>
-  <strong>Rexponential</strong> &middot; Prove it. Solve it. Roar. &middot; &copy; 2026
+  <div class="wrap">
+    <span><strong>Rex</strong>ponential &middot; Prove it. Solve it. Roar.</span>
+    <span>&copy; 2026 rexponential-maths.github.io</span>
+  </div>
 </footer>
 </body>
 </html>
