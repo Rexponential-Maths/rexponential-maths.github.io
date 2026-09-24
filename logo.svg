@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Rexponential logo">
+  <rect width="120" height="120" rx="24" fill="#14254a"/>
+  <!-- axes -->
+  <path d="M18 102 H106 M18 102 V16" stroke="#8fa3c7" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- e^x curve -->
+  <path d="M18 96 C48 94 66 86 78 70 C88 56 94 40 100 18" stroke="#f28c28" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- T-rex standing on the curve -->
+  <g fill="#f28c28" transform="translate(40 50)">
+    <!-- tail + body -->
+    <path d="M0 36 C8 30 16 26 24 24 C28 16 34 12 40 12 L48 12 C52 12 54 15 54 18 L54 22 L46 22 L46 24 L50 24 L50 27 L42 27 C40 32 36 36 30 38 L32 44 L28 44 L25 38 L20 38 L21 44 L17 44 L15 37 C10 37 5 37 0 36 Z"/>
+    <!-- arm -->
+    <path d="M38 30 L42 33 L40 34 L37 32 Z"/>
+  </g>
+  <circle cx="87" cy="64" r="1.6" fill="#14254a"/>
+</svg>
