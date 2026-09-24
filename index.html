@@ -3,11 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rexponential | Maths notes and worksheets</title>
-<meta name="description" content="Rexponential: maths notes, worksheets and practice questions for GCSE and A level.">
-<link rel="icon" href="logo.svg" type="image/svg+xml">
+<title>Rexponential | A level Maths notes and questions</title>
+<meta name="description" content="Rexponential: notes, worked examples and exam-style questions for A level Maths and Further Maths.">
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)']] } };</script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -15,7 +17,7 @@
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="index.html"><img src="logo.svg" alt="">Re<span>x</span>ponential</a>
+    <a class="brand" href="index.html"><img src="assets/logo.webp" alt="Rexponential" width="184" height="46"></a>
     <nav>
       <a href="index.html" aria-current="page">Home</a>
       <a href="notes.html">Notes</a>
@@ -25,24 +27,25 @@
   </div>
 </header>
 
-<section class="hero">
+<section class="banner">
   <div class="wrap">
-    <p class="slogan">Prove it. Solve it. Roar.</p>
-    <h1>Maths that grows exponentially.</h1>
-    <p>Clear notes, practice questions and worksheets for GCSE and A level Maths, written by a maths teacher.</p>
-    <a class="btn" href="notes.html">Browse notes</a>
-    <a class="btn ghost" href="worksheets.html">Get worksheets</a>
+    <img src="assets/banner.webp" width="1440" height="400"
+         alt="Rexponential. Prove it. Solve it. Roar. Notes, worked examples and exam-style questions for A level Maths and Further Maths.">
+    <div class="banner-actions">
+      <a class="btn" href="notes.html">Browse notes</a>
+      <a class="btn outline" href="worksheets.html">Get worksheets</a>
+    </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     <h2>What you'll find here</h2>
-    <p class="lead">Everything is organised by level and topic.</p>
+    <p class="lead">Everything is organised by course and topic.</p>
     <div class="grid">
-      <div class="card"><span class="tag">GCSE</span><h3>GCSE Maths</h3><p>Foundation and Higher topics with worked examples.</p><a href="notes.html#gcse">See topics &rarr;</a></div>
-      <div class="card"><span class="tag">A level</span><h3>A level Maths</h3><p>Pure, Statistics and Mechanics notes.</p><a href="notes.html#alevel">See topics &rarr;</a></div>
-      <div class="card"><span class="tag">Further</span><h3>Further Maths</h3><p>Complex numbers, matrices, further calculus and more.</p><a href="notes.html#further">See topics &rarr;</a></div>
+      <div class="card"><span class="tag">A level</span><h3>Pure Maths</h3><p>Proof, algebra, functions, calculus, vectors.</p><a href="notes.html#pure">See topics &rarr;</a></div>
+      <div class="card"><span class="tag">A level</span><h3>Statistics &amp; Mechanics</h3><p>Distributions, hypothesis testing, kinematics, forces.</p><a href="notes.html#applied">See topics &rarr;</a></div>
+      <div class="card"><span class="tag">Further</span><h3>Further Maths</h3><p>Complex numbers, matrices, induction, further calculus.</p><a href="notes.html#further">See topics &rarr;</a></div>
     </div>
   </div>
 </section>
@@ -50,10 +53,10 @@
 <section style="padding-top:0">
   <div class="wrap">
     <h2>Question of the week</h2>
-    <div class="example">
+    <div class="box example">
       <p>Differentiate \( y = x^2 e^{3x} \).</p>
       <details>
-        <summary><strong>Show solution</strong></summary>
+        <summary>Show solution</summary>
         <p>Using the product rule:</p>
         <p>\[ \frac{dy}{dx} = 2x e^{3x} + 3x^2 e^{3x} = x e^{3x}(2 + 3x) \]</p>
       </details>
@@ -62,7 +65,10 @@
 </section>
 
 <footer>
-  <strong>Rexponential</strong> &middot; Prove it. Solve it. Roar. &middot; &copy; 2026
+  <div class="wrap">
+    <span><strong>Rex</strong>ponential &middot; Prove it. Solve it. Roar.</span>
+    <span>&copy; 2026 rexponential-maths.github.io</span>
+  </div>
 </footer>
 </body>
 </html>
