@@ -186,6 +186,8 @@ footer strong { color: var(--orange-dark); }
 .jump { margin: 4px 0 8px; font-family: "Space Grotesk", Arial, sans-serif; font-weight: 700; }
 .jump a { text-decoration: none; }
 
+.subhead { margin: 28px 0 0; font-size: 1.25rem; }
+
 @media (max-width: 600px) {
   .brand img { height: 38px; }
   nav { gap: 16px; }
