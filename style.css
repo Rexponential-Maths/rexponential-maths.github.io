@@ -188,6 +188,10 @@ footer strong { color: var(--orange-dark); }
 
 .subhead { margin: 28px 0 0; font-size: 1.25rem; }
 
+.tutoring { padding: 24px; }
+.tutoring h2 { margin-top: 0; }
+.tutoring .btn { margin: 8px 0 0; }
+
 @media (max-width: 600px) {
   .brand img { height: 38px; }
   nav { gap: 16px; }
